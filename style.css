@@ -881,7 +881,7 @@ main
     }
 
     .company h2 {
-        font-size: 32px;
+        font-size: 30px;
         /* 単語単位で折り返す */
         word-break: break-word;
         /* 長い単語でも折り返す */
