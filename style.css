@@ -19,6 +19,7 @@ body {
 .sp-only {
     display: none;
 }
+
 /* 改行br */
 .sp-only400px {
     display: none;
@@ -860,12 +861,12 @@ pcサイズ
     }
 
     .catch {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .description {
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
 
     /* --------------------------------------
@@ -911,7 +912,7 @@ main
     }
 
     .company h2 {
-        font-size: 24px;
+        font-size: 28px;
         /* 単語単位で折り返す */
         word-break: break-word;
         /* 長い単語でも折り返す */
@@ -1043,10 +1044,16 @@ main
         display: block;
     }
 }
+
 /* 改行を有効化  */
 @media (max-width: 400px) {
     .sp-only400px {
         display: block;
+    }
+
+    /* --------------company---------------- */
+    .company h2 {
+        font-size: 24px;
     }
 }
 
