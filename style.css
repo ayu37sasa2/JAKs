@@ -965,6 +965,15 @@ main
         padding: 30px 20px 0;
     }
 
+    .service-container article p {
+        word-break: normal;
+        /* 日本語を自然に */
+        line-break: strict;
+        /* 日本語組版向け */
+        overflow-wrap: anywhere;
+        /* はみ出し防止 */
+    }
+
     /* .service-container article:nth-child(1) {
         padding: 40px 30px 0;
     } */
