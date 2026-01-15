@@ -54,8 +54,8 @@ h3 {
     line-height: 1.8;
     margin-bottom: 40px;
 
-    line-break: strict;
-    word-break: normal;
+    line-break: strict;   /* 日本語禁則を厳密に */
+    word-break: normal;   /* 単語を無理に割らない */
 }
 
 .btn {
@@ -965,7 +965,7 @@ main
     .service-container article {
         width: 100%;
         margin: 20px auto;
-        padding: 30px 20px 0;
+        padding: 30px 8px 0;
     }
 
     /* .service-container article:nth-child(1) {
